@@ -1,0 +1,23 @@
+{
+  "name": "seraphits.github.io",
+  "version": "1.0.0",
+  "description": "Nicole Trapp's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass SCSS/Main.scss CSS/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seraphits/Seraphits.github.io.git"
+  },
+  "author": "Nicole Trapp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seraphits/Seraphits.github.io/issues"
+  },
+  "homepage": "https://github.com/Seraphits/Seraphits.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
