@@ -1,0 +1,51 @@
+// .btn__Hero {
+//     &:link,
+//     &:visited {
+//         text-transform: uppercase;
+//         text-decoration: none;
+//         padding: 1.5 rem 4rem;
+//         display: inline-block;
+//         border-radius: 10rem;
+//         transition: all .2s;
+//         position: relative;
+//         font-size: 1.6rem;
+//     }
+//     &:hover {
+//         transform:  translateY(-3px);
+//         box-shadow: 0 1rem 2rem rgba($color__black, .2);
+        
+//         &::after {
+//             transform: scaleX(1.4) scaleY(1.6);
+//             opacity: 0;
+//         }
+//     }
+//     &:active {
+//         transform: translateY(-1px);
+//         box-shadow: 0 .5rem 1rem rgba($color__black, .2);
+//     }
+
+//     &--white {
+//         background-color: $color__white;
+//         color: $color__gray-dark;
+
+//         &::after {
+//             background-color: $color__white;
+//         }
+//     }
+//     &::after {
+//         content: "";
+//         display: inline-block;
+//         height: 100%;
+//         width: 100%;
+//         border-radius: 10rem;
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         z-index: -1;
+//         transition: all .4s;
+//     }
+//     &--animated {
+//         animation: moveInBotton .5s ease-out .75s ;
+//         animation-fill-mode: backwards;
+//     }
+// }
