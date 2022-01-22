@@ -5,6 +5,10 @@
   padding: 0;
   box-sizing: inherit; }
 
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
 body {
   box-sizing: border-box; }
 
@@ -40,5 +44,172 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #777;
-  padding: 3rem; }
+  color: #777; }
+
+h1,
+.h1 {
+  font-size: 5rem; }
+  h1__hero,
+  .h1__hero {
+    font-size: 5rem; }
+
+h2,
+.h2 {
+  font-size: 3rem; }
+  h2__course-work,
+  .h2__course-work {
+    text-align: center;
+    padding: 4rem; }
+
+h3,
+.h3 {
+  font-size: 1.6rem; }
+  h3__hero,
+  .h3__hero {
+    font-size: 1.6rem; }
+
+a,
+p,
+.p {
+  font-size: 1.2rem; }
+  a__hero,
+  p__hero,
+  .p__hero {
+    font-size: 2rem;
+    font-style: italic; }
+
+.mb-sm {
+  margin-bottom: 2rem; }
+
+.mb-md {
+  margin-bottom: 3rem; }
+
+.mb-lg {
+  margin-bottom: 4rem; }
+
+.mb-hg {
+  margin-bottom: 8rem; }
+
+.btn__hero1:link, .btn__hero1:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all .2s;
+  position: relative;
+  font-size: 1.6rem; }
+
+.btn__hero1:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .btn__hero1:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; }
+
+.btn__hero1:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn__hero1--white {
+  background-color: #fff;
+  color: #777; }
+  .btn__hero1--white::after {
+    background-color: #fff; }
+
+.btn__hero1__color--portfolio1 {
+  background-color: red;
+  color: #fff; }
+  .btn__hero1__color--portfolio1::after {
+    background-color: red; }
+
+.btn__hero1::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s; }
+
+.btn__hero1--animated {
+  animation: moveInBotton .5s ease-out .75s;
+  animation-fill-mode: backwards; }
+
+.btn--white {
+  background-color: #fff;
+  color: #777; }
+  .btn--white::after {
+    background-color: #fff; }
+
+.btn__color--portfolio1 {
+  background-color: red;
+  color: #fff; }
+  .btn__color--portfolio1::after {
+    background-color: red; }
+
+.btn__hero2 {
+  background-color: red;
+  color: #dddddd;
+  border: none;
+  border-radius: 0;
+  font-family: "Josefin San", sans-serif;
+  font-size: 2rem;
+  padding: 1.8rem 3rem;
+  cursor: pointer;
+  transition: all .2s; }
+  .btn__hero2:hover {
+    background-color: #cc0000; }
+
+.img__homehero--1 {
+  width: 100%;
+  grid-row: 2 / 6;
+  grid-column: 2 / 6;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+  border-radius: 20rem; }
+
+.img__homehero--2 {
+  width: 115%;
+  grid-row: 4 / 6;
+  grid-column: 4 / 7;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+  z-index: 20; }
+
+.hero__pictures {
+  background-color: red;
+  grid-column: full-start /col-end 4;
+  background-image: url(../../img/roof-truss-gef42e7882_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center; }
+
+.hero__content {
+  background-color: #ffcccc;
+  grid-column: col-end 4 / full-end;
+  padding: 6rem 8vw;
+  display: grid;
+  align-content: center;
+  justify-items: flex-start; }
+
+.course-work {
+  grid-column: center-start / center-end;
+  padding-bottom: 8rem; }
+  .course-work__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 7rem; }
+
+.assignments {
+  text-align: center;
+  font-size: 2rem; }
+
+.container__grid {
+  display: grid;
+  grid-template-rows: 40vw min-content;
+  grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 1fr) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }

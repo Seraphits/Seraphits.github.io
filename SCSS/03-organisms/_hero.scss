@@ -1,0 +1,29 @@
+.hero {
+    &__pictures {
+        background-color: $color__portfolio1;
+        grid-column: full-start /col-end 4;
+        background-image: url(../../img/roof-truss-gef42e7882_640.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: grid;
+        grid-template-rows: repeat(6, 1fr) ;
+        grid-template-columns: repeat(6, 1fr) ;
+        align-items: center;
+    } 
+    &__content {
+        background-color: lighten($color: $color__portfolio1, $amount: 40%) ;
+        grid-column: col-end 4 / full-end ;
+        padding:  6rem 8vw;
+        // in flexbox
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: flex-start;
+        //  in grid 
+        display: grid;
+        align-content: center;
+        justify-items: flex-start;
+    }
+    
+}

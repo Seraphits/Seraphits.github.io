@@ -1,1 +1,9 @@
 // For laying out element in a fully-fledged 2-dimensional grid. Perfect for page layouts and complex components. 
+
+.container__grid {
+    display: grid;
+    grid-template-rows: 40vw min-content;
+    grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 1fr) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+} 
+
+

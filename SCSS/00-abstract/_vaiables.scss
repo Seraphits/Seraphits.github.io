@@ -1,8 +1,16 @@
 // COLORS
 
-$color__portfolio--1: red;
-$color__portfolio--2: BLUE;
+$color__portfolio1: red;
+$color__portfolio2: BLUE;
+
+$color__portfolio1--darken: darken($color__portfolio1, 10%);
 
 $color__gray-dark: #777;
+$color__gray-light: rgb(221, 221, 221);
 $color__white: #fff;
 $color__black: #000;
+
+// FONTS
+
+$font__primary: "Lato", sans-serif;
+$font__display: 'Josefin San', sans-serif;
