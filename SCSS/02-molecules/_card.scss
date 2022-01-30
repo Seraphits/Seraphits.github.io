@@ -1,0 +1,24 @@
+.card {
+    width: 33.33333%;
+    height: 30vw;
+    position: relative;
+    &__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba($color: $color__portfolio1, $alpha: .4);
+        color: $color__white;
+        z-index: 10;
+        @include flexLayout;
+        flex-direction: column;
+        @extend %fullspace;
+        &--heading {
+            font-family: $font__primary;
+            font-size: 5rem;
+        }
+        &--paragraph {
+            font-size: 3rem;
+        }
+    }
+    
+}

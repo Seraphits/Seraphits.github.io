@@ -1,7 +1,3 @@
-.img__card, .card__overlay {
-  width: 100%;
-  height: 100%; }
-
 *,
 *::after,
 *::before {
@@ -59,27 +55,18 @@ h1,
 
 h2,
 .h2 {
-  font-size: 4rem; }
+  font-size: 3rem; }
   h2__course-work,
   .h2__course-work {
     text-align: center;
-    padding: 4rem;
-    font-size: 3rem; }
+    padding: 4rem; }
 
 h3,
 .h3 {
-  font-size: 3rem; }
+  font-size: 1.6rem; }
   h3__hero,
   .h3__hero {
     font-size: 1.6rem; }
-
-h4,
-.h4 {
-  font-size: 2rem; }
-
-h5,
-.h5 {
-  font-size: 1.6rem; }
 
 a,
 p,
@@ -191,33 +178,6 @@ p,
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
   z-index: 20; }
 
-.img__project {
-  width: 100%; }
-
-.img__card {
-  opacity: .5; }
-
-.card {
-  width: 33.33333%;
-  height: 30vw;
-  position: relative; }
-  .card__overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(255, 0, 0, 0.4);
-    color: #fff;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; }
-    .card__overlay--heading {
-      font-family: "Lato", sans-serif;
-      font-size: 5rem; }
-    .card__overlay--paragraph {
-      font-size: 3rem; }
-
 .hero__pictures {
   background-color: red;
   grid-column: full-start /col-end 4;
@@ -237,26 +197,19 @@ p,
   align-content: center;
   justify-items: flex-start; }
 
-.assignments {
-  text-align: center;
-  font-size: 2rem; }
-
-.cards__wrapper {
-  display: flex;
-  flex-wrap: wrap; }
-
-.container__grid {
-  display: grid;
-  grid-template-rows: 40vw repeat(2, min-content);
-  grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 1fr) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
-
-.grid_center {
+.course-work {
   grid-column: center-start / center-end;
   padding-bottom: 8rem; }
-  .grid_center__course-work {
+  .course-work__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 7rem; }
 
-.grid__full {
-  grid-column: full-start / full-end; }
+.assignments {
+  text-align: center;
+  font-size: 2rem; }
+
+.container__grid {
+  display: grid;
+  grid-template-rows: 40vw min-content;
+  grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 1fr) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }

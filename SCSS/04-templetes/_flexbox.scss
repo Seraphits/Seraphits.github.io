@@ -1,1 +1,5 @@
 // Modern way of laying out elements in a 1-dimensional row without fouts. Perfect for components layouts
+.cards__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}

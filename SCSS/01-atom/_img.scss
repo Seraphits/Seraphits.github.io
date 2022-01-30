@@ -15,5 +15,11 @@
             z-index: 20;
         }
     }
-    
+    &__project {
+            width: 100%;
+        }
+    &__card {
+        @extend %fullspace;
+        opacity: .5;
+    }   
 }

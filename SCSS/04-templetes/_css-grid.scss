@@ -2,8 +2,28 @@
 
 .container__grid {
     display: grid;
-    grid-template-rows: 40vw min-content;
+    grid-template-rows: 40vw repeat(2, min-content) ;
     grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 1fr) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 } 
 
+.grid {
+    &_center {
+        grid-column: center-start / center-end;
+        padding-bottom: 8rem; 
+        &__course-work {
+            display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-gap: 7rem;
+        }
+    }
+    &__full {
+        grid-column: full-start / full-end;
+    }
+}
 
+
+
+// .grid__course {
+//     background-color: green;
+//     
+// }
