@@ -2,7 +2,7 @@
 
 .container__grid {
     display: grid;
-    grid-template-rows: 40vw repeat(2, min-content) ;
+    grid-template-rows: min-content(40vw, min-content)  repeat(2, min-content) ;
     grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 1fr) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 } 
 

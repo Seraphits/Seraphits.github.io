@@ -182,7 +182,6 @@ a {
 
 .img__homehero--1 {
   width: 100%;
-  height: 78%;
   object-fit: cover;
   grid-row: 2 / 6;
   grid-column: 2 / 6;
@@ -211,7 +210,8 @@ f .img__project {
   position: relative;
   overflow: hidden; }
   .card:hover .card__overlay {
-    left: 0; }
+    left: 0;
+    cursor: pointer; }
   .card__overlay {
     position: absolute;
     top: 0;
@@ -259,7 +259,7 @@ f .img__project {
 
 .container__grid {
   display: grid;
-  grid-template-rows: 40vw repeat(2, min-content);
+  grid-template-rows: min-content(40vw, min-content) repeat(2, min-content);
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 1fr) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
 
 .grid_center {
