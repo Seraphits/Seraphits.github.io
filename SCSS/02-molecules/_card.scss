@@ -2,16 +2,25 @@
     width: 33.33333%;
     height: 30vw;
     position: relative;
+    overflow: hidden;
+
+    &:hover .card__overlay {
+        left: 0;
+    }
+
     &__overlay {
         position: absolute;
         top: 0;
-        left: 0;
-        background-color: rgba($color: $color__portfolio1, $alpha: .4);
+        left: -100%;
+        // background-color: rgba($color: blue, $alpha: .4);
+        background-color: rgba($color: $color__portfolio1, $alpha: .6);
         color: $color__white;
         z-index: 10;
         @include flexLayout;
         flex-direction: column;
         @extend %fullspace;
+        transition: left .7s;
+
         &--heading {
             font-family: $font__primary;
             font-size: 5rem;
@@ -20,5 +29,5 @@
             font-size: 3rem;
         }
     }
-    
+     
 }

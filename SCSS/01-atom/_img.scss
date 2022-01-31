@@ -2,6 +2,7 @@
     &__homehero {
         &--1 {
             width: 100%;
+            object-fit: cover;
             grid-row: 2 / 6;
             grid-column: 2 / 6;
             box-shadow: 0 2rem 5rem rgba($color: #000000, $alpha: .1);
@@ -20,6 +21,7 @@
         }
     &__card {
         @extend %fullspace;
-        opacity: .5;
+        object-fit: cover;
+        // opacity: .5;
     }   
 }

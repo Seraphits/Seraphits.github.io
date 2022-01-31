@@ -179,6 +179,7 @@ p,
 
 .img__homehero--1 {
   width: 100%;
+  object-fit: cover;
   grid-row: 2 / 6;
   grid-column: 2 / 6;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
@@ -195,23 +196,27 @@ p,
   width: 100%; }
 
 .img__card {
-  opacity: .5; }
+  object-fit: cover; }
 
 .card {
   width: 33.33333%;
   height: 30vw;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
+  .card:hover .card__overlay {
+    left: 0; }
   .card__overlay {
     position: absolute;
     top: 0;
-    left: 0;
-    background-color: rgba(255, 0, 0, 0.4);
+    left: -100%;
+    background-color: rgba(255, 0, 0, 0.6);
     color: #fff;
     z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; }
+    flex-direction: column;
+    transition: left .7s; }
     .card__overlay--heading {
       font-family: "Lato", sans-serif;
       font-size: 5rem; }
