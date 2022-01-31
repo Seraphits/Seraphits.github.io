@@ -50,3 +50,8 @@ p,
         font-style: italic;
     }
 }
+
+a {
+    color: darken($color: $color__portfolio1, $amount: 20%)
+    ;
+}
