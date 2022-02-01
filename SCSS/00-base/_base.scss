@@ -10,6 +10,9 @@ html {
     box-sizing: border-box;
     // this defines that 1rem is
     font-size: 62.5%;
+    @media only screen and (max-width: $bp__Largest) {
+        font-size: 50%;
+    }
 }
 
 body {

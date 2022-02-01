@@ -20,6 +20,7 @@ h2,
         text-align: center;
         padding: 4rem;
         font-size: 3rem;
+        // background-color: lighten($color: $color__portfolio1, $amount: 40%) ;
     }
 }
 
@@ -52,6 +53,5 @@ p,
 }
 
 a {
-    color: darken($color: $color__portfolio1, $amount: 20%)
-    ;
+    color: darken($color: $color__portfolio1, $amount: 20%) ;
 }
