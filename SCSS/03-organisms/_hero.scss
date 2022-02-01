@@ -5,6 +5,10 @@
         background-image: url(../../img/roof-truss-gef42e7882_640.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        @media only screen and (max-width: $bp__Large) {
+            grid-column: 1 / -1;
+            // background-color: darkgoldenrod;
+        }
 
         display: grid;
         grid-template-rows: repeat(6, 1fr) ;
@@ -24,6 +28,13 @@
         display: grid;
         align-content: center;
         justify-items: flex-start;
+        @media only screen and (max-width: $bp__Large) {
+            grid-column: 1 / -1;
+            grid-row: 1 / 2;
+            // background-color: darkgreen;
+            justify-items:center;
+            text-align: center;
+            padding: 8rem;
+        }
     }
-    
 }

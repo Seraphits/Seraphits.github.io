@@ -242,6 +242,9 @@ f .img__project {
   grid-template-rows: repeat(6, 1fr);
   grid-template-columns: repeat(6, 1fr);
   align-items: center; }
+  @media only screen and (max-width: 60em) {
+    .hero__pictures {
+      grid-column: 1 / -1; } }
 
 .hero__content {
   background-color: #ffcccc;
@@ -250,6 +253,13 @@ f .img__project {
   display: grid;
   align-content: center;
   justify-items: flex-start; }
+  @media only screen and (max-width: 60em) {
+    .hero__content {
+      grid-column: 1 / -1;
+      grid-row: 1 / 2;
+      justify-items: center;
+      text-align: center;
+      padding: 8rem; } }
 
 .assignments {
   text-align: center;
@@ -261,7 +271,6 @@ f .img__project {
 
 .container__grid {
   display: grid;
-  grid-template-rows: min-content(40vw, min-content) repeat(2, min-content);
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 1fr) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
 
 .grid_center {
