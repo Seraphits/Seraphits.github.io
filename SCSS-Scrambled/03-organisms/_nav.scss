@@ -1,0 +1,51 @@
+.navbar {
+    position: relative;
+    z-index: 200;
+    &__nav {
+        display: flex;
+        &--left {
+            width: 50vw;
+            height: 100vh;
+            background-color: aquamarine;
+            position: fixed;
+            left: -50vw;
+            transition: left .8s cubic-bezier(0.86, 0, 0.07, 1);
+        }
+        &--right {
+            width: 50vw;
+            height: 100vh;
+            background-color: #1f1d1d;
+            position: fixed;
+            right: -50vw;
+            @include flexLayout;
+            transition: right .8s cubic-bezier(0.86, 0, 0.07, 1);
+        }
+    }
+}  
+
+.checkbox:checked  ~ .navbar__nav .navbar__nav--left {
+    left: 0;
+}
+.checkbox:checked  ~ .navbar__nav .navbar__nav--right {
+    right: 0;
+}
+.nav__list {
+    &--item {
+        list-style: none;
+    }
+    &--link {
+        font-family: $font__display;
+        font-size: 5rem;
+        // @include textStyles()
+        color: lighten($color: $color__scrambled--1, $amount: 20%);
+        text-decoration: none;
+        display: block;
+        margin: 2rem;
+        text-align: center;
+        transition: all .5s;
+        &:hover {
+            color: $color__scrambled--1;
+            letter-spacing: .4rem;
+        }
+    }
+}

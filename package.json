@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass SCSS/Main.scss CSS/style.css -w",
+    "compile2:sass": "node-sass SCSS-Scrambled/Main.scss CSS/Scrambled.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver compile:sass"
   },
