@@ -17,17 +17,18 @@ html {
 
 body {
     box-sizing: border-box;
-    
+    background-color: black;
     // tablet portrait
-    @media all and (min-width:600px) and (orientation: portrait){
-        background-color: darkgreen;
-    }
-    //phone landscape
-    @media all and (min-width:600px) and (orientation: landscape){
-        background-color: darkorange;
-    }
-    //tablet landscape and screen  
-    @media all and (min-width:1100px) {
-        background-color: darkmagenta;
-    }
+    // @media all and (min-width:600px) and (orientation: portrait){
+    //     background-color: darkgreen;
+        
+    // }
+    // //phone landscape
+    // @media all and (min-width:600px) and (orientation: landscape){
+    //     background-color: darkorange;
+    // }
+    // //tablet landscape and screen  
+    // @media all and (min-width:1100px) {
+    //     background-color: darkmagenta;
+    // }
 } 

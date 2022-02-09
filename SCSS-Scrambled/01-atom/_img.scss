@@ -1,6 +1,12 @@
 .img {
+    @extend %fullspace;
     &__nav {
         @extend %fullspace;
 
+    }
+    &__tabla--1 {
+        @extend %fullspace;
+        object-fit: contain;
+        display: block;
     }
 } 

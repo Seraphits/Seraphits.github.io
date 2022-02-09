@@ -6,7 +6,7 @@
 @import "./00-base/base";
 // @import "00-base/animations";
 // @import "00-base/typography";
-// @import "00-base/utilities";
+@import "00-base/utilities";
 
 // @import "01-atom/button";
 @import "01-atom/img";
@@ -20,3 +20,5 @@
 // @import "./04-templetes/floats-grids";
 // @import "./04-templetes/flexbox";
 // @import "./04-templetes/css-grid";
+
+@import "./05-pages/tabla"
