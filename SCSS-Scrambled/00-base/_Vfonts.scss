@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Decovar';
+    src: url('/fonts/DecovarAlpha-VF.woff2');
+    // font-weight: normal;
+    // font-style: normal;
+}
+@font-face {
+	font-family:'Decovar Regular24'; 
+	src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Decovar-VF.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto VF';
+    src: url() format('woff2-variations'); // .woff2
+    font-weight: 100 900;
+    font-stretch: 75% 100%;
+    font-style: oblique 0deg 12deg;
+}
+
+
+
+// @keyframes loadin {
+// 	0% {
+// 		font-variation-settings: 'TRMA' 1000;
+// 	}
+// 	50% {
+// 		font-variation-settings: 'TRMA' 0;
+// 	}
+// }

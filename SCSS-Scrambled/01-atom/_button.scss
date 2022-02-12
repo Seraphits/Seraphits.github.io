@@ -3,12 +3,20 @@
     &:visited {
         text-transform: uppercase;
         text-decoration: none;
-        padding: 1.5rem 4rem;
+        padding: 1rem 3rem;
         display: inline-block;
         border-radius: 10rem;
         transition: all .2s;
         position: relative;
-        font-size: 1.6rem;
+        font-size: 2rem;
+        @media  all and (min-height: 700px) {
+            font-size: 2.5rem;
+            padding: 1.5rem 4rem;
+        }
+        @media  all and (min-height: 900px) {
+            font-size: 3rem;
+            padding: 2rem 5rem;
+        }
     }
     &:hover {
         transform:  translateY(-3px);
@@ -22,24 +30,7 @@
     &:active {
         transform: translateY(-1px);
         box-shadow: 0 .5rem 1rem rgba($color__black, .2);
-    }
-
-    &--white {
-        background-color: $color__white;
-        color: $color__gray-dark;
-
-        &::after {
-            background-color: $color__white;
-        }
-    }
-    &__color--portfolio1 {
-        background-color: $color__portfolio1;
-        color: $color__white;
-        
-        &::after {
-            background-color: $color__portfolio1;
-        }
-    }
+    } 
     &::after {
         content: "";
         display: inline-block;
@@ -67,31 +58,13 @@
             background-color: $color__white;
         }
     }
-    &__color--portfolio1 {
-        background-color: $color__portfolio1;
+    &__color__scrambled--1 {
+        background-color: $color__scrambled--1;
         color: $color__white;
         
         &::after {
-            background-color: $color__portfolio1;
+            background-color: $color__scrambled--1;
         }
     }
 }
 
-
-
-.btn__hero2 {
-    background-color: $color__portfolio1;
-    color: $color__gray-light;
-    border: none;
-    border-radius: 0;
-    font-family: $font__display;
-    font-size: 2rem;
-    // text-transform: uppercase;
-    padding: 1.8rem 3rem;
-    cursor: pointer;
-    transition: all .2s;
-
-    &:hover {
-        background-color: $color__portfolio1--darken;
-    }
-}
