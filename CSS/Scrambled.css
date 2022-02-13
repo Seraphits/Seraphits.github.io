@@ -116,6 +116,18 @@ body {
   top: 7%;
   right: 5%;
   z-index: 300; }
+  @media all and (max-height: 30rem) {
+    .hamburger {
+      width: 3rem;
+      height: 3rem; } }
+  @media all and (max-height: 20rem) {
+    .hamburger {
+      width: 2.5rem;
+      height: 2.5rem; } }
+  @media all and (max-height: 15rem) {
+    .hamburger {
+      width: 2rem;
+      height: 2rem; } }
   .hamburger-menu {
     display: flex;
     flex-direction: column;
@@ -128,6 +140,12 @@ body {
       background-color: green;
       transform-origin: right;
       transition: all .5s .5s; }
+      @media all and (max-height: 30rem) {
+        .hamburger-menu__line {
+          height: 3px; } }
+      @media all and (max-height: 15rem) {
+        .hamburger-menu__line {
+          height: 2px; } }
 
 .checkbox:checked ~ .hamburger .hamburger-menu {
   transform: rotateZ(90deg); }
@@ -153,6 +171,9 @@ body {
       position: fixed;
       left: -50vw;
       transition: left 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
+      @media all and (orientation: portrait) {
+        .navbar__nav--left {
+          display: none; } }
     .navbar__nav--right {
       width: 50vw;
       height: 100vh;
@@ -163,6 +184,15 @@ body {
       justify-content: center;
       align-items: center;
       transition: right 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
+      @media all and (orientation: portrait) {
+        .navbar__nav--right {
+          width: 100vw;
+          right: -100vw; } }
+      @media screen and (max-width: 30rem) {
+        .navbar__nav--right {
+          color: #15008b;
+          width: 100vw;
+          right: -100vw; } }
 
 .checkbox:checked ~ .navbar__nav .navbar__nav--left {
   left: 0; }
@@ -182,6 +212,19 @@ body {
   margin: 2rem;
   text-align: center;
   transition: all .5s; }
+  @media screen and (max-width: 60rem) and (orientation: landscape) {
+    .nav__list--link {
+      font-size: 4rem; } }
+  @media all and (max-height: 30rem) {
+    .nav__list--link {
+      font-size: 4rem; } }
+  @media all and (max-height: 20rem) {
+    .nav__list--link {
+      font-size: 3rem; } }
+  @media all and (max-height: 15rem) {
+    .nav__list--link {
+      font-size: 2rem;
+      line-height: 1rem; } }
   .nav__list--link:hover {
     color: green;
     letter-spacing: .4rem; }

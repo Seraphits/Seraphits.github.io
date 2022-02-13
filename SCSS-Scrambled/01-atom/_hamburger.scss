@@ -6,6 +6,21 @@
     top: 7%;
     right: 5%;
     z-index: 300;
+    @media  all and (max-height: 30rem) {
+        // background-color: aqua;
+        width: 3rem;
+        height: 3rem;
+    }
+    @media  all and (max-height: 20rem) {
+        // background-color: rgb(47, 0, 255);
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    @media  all and (max-height: 15rem) {
+        // background-color: rgb(255, 0, 34);
+        width: 2rem;
+        height: 2rem;
+    }
     &-menu {
         @extend %fullspace;
         display: flex;
@@ -20,9 +35,16 @@
             background-color: $color__scrambled--1;
             transform-origin: right;
             transition: all .5s .5s;
+            @media  all and (max-height: 30rem) {
+                height: 3px;
+            }
+            @media  all and (max-height: 15rem) {
+                height: 2px;
+            }
         }
     }
 } 
+// Makes hamburger menu into X
 .checkbox:checked ~  .hamburger .hamburger-menu {
     transform: rotateZ(90deg);
 }

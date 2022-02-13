@@ -10,6 +10,12 @@
             position: fixed;
             left: -50vw;
             transition: left .8s cubic-bezier(0.86, 0, 0.07, 1);
+            @media all and (orientation: portrait){
+                display: none;
+                // background-color: rgb(242, 255, 127);
+
+            }
+           
         }
         &--right {
             width: 50vw;
@@ -19,6 +25,15 @@
             right: -50vw;
             @include flexLayout;
             transition: right .8s cubic-bezier(0.86, 0, 0.07, 1);
+            @media all and (orientation: portrait){
+                width: 100vw;
+                right: -100vw;
+            }
+            @media  screen and (max-width: 30rem)  {
+                color:  rgb(21, 0, 139);
+                width: 100vw;
+                right: -100vw; 
+            }
         }
     }
 }  
@@ -28,6 +43,14 @@
 }
 .checkbox:checked  ~ .navbar__nav .navbar__nav--right {
     right: 0;
+    // @media all and (orientation: portrait){
+    //     background-color: aqua;
+    //     width: -50vw;
+    // }
+    // @media  screen and (max-width: 30rem)  {
+    //     background-color:  darkmagenta;
+    //     // width: 100vw; 
+    // }
 }
 .nav__list {
     &--item {
@@ -43,6 +66,23 @@
         margin: 2rem;
         text-align: center;
         transition: all .5s;
+        @media  screen and (max-width: 60rem) and (orientation: landscape) {
+            // background-color: darkorange;
+             font-size: 4rem;
+        }
+        @media  all and (max-height: 30rem) {
+            // background-color: aqua;
+            font-size: 4rem;
+        }
+        @media  all and (max-height: 20rem) {
+            // background-color: aqua;
+            font-size: 3rem;
+        }
+        @media  all and (max-height: 15rem) {
+            // background-color: aqua;
+            font-size: 2rem;
+            line-height: 1rem;
+        }
         &:hover {
             color: $color__scrambled--1;
             letter-spacing: .4rem;
