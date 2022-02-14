@@ -58,31 +58,14 @@
     }
     &--link {
         font-family: $font__display;
-        font-size: 5rem;
-        // @include textStyles()
         color: lighten($color: $color__scrambled--1, $amount: 20%);
         text-decoration: none;
         display: block;
         margin: 2rem;
         text-align: center;
         transition: all .5s;
-        @media  screen and (max-width: 60rem) and (orientation: landscape) {
-            // background-color: darkorange;
-             font-size: 4rem;
-        }
-        @media  all and (max-height: 30rem) {
-            // background-color: aqua;
-            font-size: 4rem;
-        }
-        @media  all and (max-height: 20rem) {
-            // background-color: aqua;
-            font-size: 3rem;
-        }
-        @media  all and (max-height: 15rem) {
-            // background-color: aqua;
-            font-size: 2rem;
-            line-height: 1rem;
-        }
+        font-size: clamp(1.5rem, 6vh, 15rem );
+        line-height: clamp(1rem, 6vh, 15rem );
         &:hover {
             color: $color__scrambled--1;
             letter-spacing: .4rem;

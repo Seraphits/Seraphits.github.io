@@ -51,20 +51,13 @@ body {
 .btn__hero1:link, .btn__hero1:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1rem 3rem;
   display: inline-block;
   border-radius: 10rem;
   transition: all .2s;
   position: relative;
-  font-size: 2rem; }
-  @media all and (min-height: 700px) {
-    .btn__hero1:link, .btn__hero1:visited {
-      font-size: 2.5rem;
-      padding: 1.5rem 4rem; } }
-  @media all and (min-height: 900px) {
-    .btn__hero1:link, .btn__hero1:visited {
-      font-size: 3rem;
-      padding: 2rem 5rem; } }
+  padding: clamp(1rem, 3vh, 4rem) clamp(4rem, 5vh, 6rem);
+  font-size: clamp(2rem, 4vh, 4rem);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
 
 .btn__hero1:hover {
   transform: translateY(-3px);
@@ -205,26 +198,14 @@ body {
 
 .nav__list--link {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 5rem;
   color: #00e600;
   text-decoration: none;
   display: block;
   margin: 2rem;
   text-align: center;
-  transition: all .5s; }
-  @media screen and (max-width: 60rem) and (orientation: landscape) {
-    .nav__list--link {
-      font-size: 4rem; } }
-  @media all and (max-height: 30rem) {
-    .nav__list--link {
-      font-size: 4rem; } }
-  @media all and (max-height: 20rem) {
-    .nav__list--link {
-      font-size: 3rem; } }
-  @media all and (max-height: 15rem) {
-    .nav__list--link {
-      font-size: 2rem;
-      line-height: 1rem; } }
+  transition: all .5s;
+  font-size: clamp(1.5rem, 6vh, 15rem);
+  line-height: clamp(1rem, 6vh, 15rem); }
   .nav__list--link:hover {
     color: green;
     letter-spacing: .4rem; }
@@ -240,9 +221,7 @@ body {
       grid-template-rows: repeat(10, 1fr); } }
   .tabla__item--logo {
     grid-row: 1 / 2;
-    grid-column: 1 / 6;
-    margin: auto;
-    margin-left: 4rem; }
+    grid-column: 1 / 6; }
   .tabla__item--tabla-pair {
     grid-row: 2 / 8;
     grid-column: 3 / 8; }
@@ -313,65 +292,21 @@ body {
         grid-column: 1 / 9; } }
 
 .h1__tabla {
-  font-size: 6rem;
+  font-size: clamp(1.5rem, 11vh, 15rem);
   color: burlywood;
   font-family: 'Hanalei', cursive; }
-  @media all and (min-height: 700px) {
+  @media screen and (orientation: portrait) {
     .h1__tabla {
-      font-size: 8rem; } }
-  @media all and (min-height: 900px) {
-    .h1__tabla {
-      font-size: 11rem; } }
-  @media all and (orientation: portrait) {
-    .h1__tabla {
-      font-size: 6rem; } }
-  @media all and (max-height: 500px) and ((orientation: portrait)) {
-    .h1__tabla {
-      font-size: 5rem; } }
-  @media all and (max-height: 500px) and ((orientation: landscape)) {
-    .h1__tabla {
-      font-size: 4rem; } }
-  @media (min-aspect-ratio: 2 / 3) and ((orientation: portrait)) and (min-width: 700px) {
-    .h1__tabla {
-      font-size: 8rem; } }
-  @media (min-aspect-ratio: 2 / 3) and ((orientation: portrait)) and (min-width: 900px) {
-    .h1__tabla {
-      font-size: 10rem; } }
+      font-size: clamp(1.5rem, 10vh, 11rem); } }
 
 .h3__logo {
   color: green;
   font-family: 'Henny Penny', cursive;
-  font-size: 2.5rem;
-  padding: 3rem;
-  margin: auto; }
-  @media all and (min-height: 700px) {
-    .h3__logo {
-      font-size: 3rem;
-      padding: 3rem; } }
-  @media all and (min-height: 900px) {
-    .h3__logo {
-      font-size: 3.5rem;
-      padding: 4rem; } }
-  @media all and (max-width: 1100px) {
-    .h3__logo {
-      font-size: 3rem;
-      padding: 3rem; } }
-  @media all and (max-width: 920px) {
-    .h3__logo {
-      font-size: 2.5rem;
-      padding: 3rem; } }
-  @media all and (max-height: 600px) and ((orientation: portrait)) {
-    .h3__logo {
-      font-size: 2rem;
-      padding: 2rem; } }
+  font-size: clamp(1.5rem, 5vh, 5rem);
+  padding-top: 2vh;
+  padding-left: 3vw; }
 
 .h1__sounds {
-  font-size: 6rem;
+  font-size: clamp(1.5rem, 6vh, 15rem);
   font-family: 'Henny Penny', cursive;
   color: #d3b38a; }
-  @media all and (min-height: 700px) {
-    .h1__sounds {
-      font-size: 4rem; } }
-  @media all and (min-height: 900px) {
-    .h1__sounds {
-      font-size: 6rem; } }
