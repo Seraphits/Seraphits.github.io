@@ -1,0 +1,33 @@
+/* Main */
+
+body {
+	background-color: red;
+}
+.grid1 {
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	grid-column-gap: 10px;
+    margin: auto;
+	margin-top: 10px;
+}
+
+
+/* Tablet and smaller */
+@media only screen and (max-width: 1100px) {
+	body {
+	  background-color: lightblue;
+	}
+    .grid1 {  
+        grid-template-columns: repeat(3,1fr);
+    }
+
+  }
+/* Phone */
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: sienna;
+    }
+    .grid1 {
+        grid-template-columns: 1fr;
+    }
+}
