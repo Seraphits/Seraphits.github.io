@@ -9,11 +9,13 @@ function playButton() {
 
     anwser = prompt('What animal says "meow"?').toLowerCase();
 
-    myElement = document.getElementById("colorBox");
+    myElement = document.getElementById("diamond");
 
     if (anwser === "cat") {
         document.body.style.background = "green";
+        myElement.style.display = "flex";
     } else {
         document.body.style.background = "red";
+        myElement.style.display = "none";
     }
 }
