@@ -3,7 +3,7 @@ function playButton() {
     var anwser, myElement;
     // Asked the user a question
     anwser = prompt('What animal says "meow"?').toLowerCase();
-    // Pulls Question
+    // element from HTML
     myElement = document.getElementById("diamond");
 
     if (anwser === "cat") {
