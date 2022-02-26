@@ -5,8 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="../CSS/week5.css">
 </head>
 <body>
-    
+    <h1>School Waiting List</h1>
+    <p> thank you for choosing Rocket Private Schools. Currently our registration is booked but we will plan to add you to the waiting list in case there are any availabilities.</p>
+    <p> please fill out the form below to be added to our waiting list.</p>
+    <form action="">
+        <!-- Form name -->
+        <p>
+            <label for="childName">Child's Name</label>
+            <input  id="childName" type="text" placeholder="Child's Name" name="childName" required>
+        </p>
+        <!-- Form  age -->
+        <p>
+            <label for="childAge">Child's Age</label>
+            <input id="childAge"type="number" placeholder="Child's Age" name="childAge" min="4" max="20" required>
+        </p>
+        <!-- Form gender -->
+        <p>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+        </p>
+        <!-- Form upcoming grade -->
+        <p>
+            <input type="text">
+        </p>
+        <!-- Form a drop down selector for which school -->
+        <p>
+            <label for="location">Which location of rocket schools would they like to attend?</label>
+            <select name="location" id="location">
+                <option value="none">Select a location</option>
+                <option value="tampa">Tampa, Fl</option>
+                <option value="clearwater">Clearwater, FL</option>
+                <option value="orlando">Orlando, Fl</option>
+            </select>
+        </p>
+        <p>
+            <label for="email">e-mail</label>
+            <input type="email" id="email" required>
+        </p>
+        <!-- Submit -->
+        <button>Submit</button>
+        <input type="submit" value="Click Me">
+
+    </form>
 </body>
 </html>
