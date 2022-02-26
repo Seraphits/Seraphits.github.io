@@ -105,7 +105,7 @@ a {
 
 .mb-hg {
   margin-bottom: 8rem; }
-
+/* button strats here */
 .btn__hero1:link, .btn__hero1:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -179,7 +179,8 @@ a {
   transition: all .2s; }
   .btn__hero2:hover {
     background-color: #cc0000; }
-
+/* button ends here */
+/* img start here */
 .img__homehero--1 {
   width: 100%;
   grid-row: 2 / 6;
@@ -202,7 +203,8 @@ f .img__project {
 
 .img__card {
   object-fit: cover; }
-
+/* img end here */
+/* cards starts here */
 .card {
   width: 33.33333%;
   height: 30vw;
@@ -228,7 +230,8 @@ f .img__project {
       font-size: 5rem; }
     .card__overlay--paragraph {
       font-size: 3rem; }
-
+/* card end here */
+/* this is the hero  */
 .hero__pictures {
   background-color: red;
   grid-column: full-start /col-end 4;
@@ -247,11 +250,11 @@ f .img__project {
   display: grid;
   align-content: center;
   justify-items: flex-start; }
-
+/* links for week assiments */
 .assignments {
   text-align: center;
   font-size: 2rem; }
-
+/* grids */
 .cards__wrapper {
   display: flex;
   flex-wrap: wrap; }
