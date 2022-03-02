@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../CSS/Scrambled.css">
+
+    <script src="../JavaScript/Week5.js" type="text/javascript"></script>
+</head>
+<body>
+    <section class="section__card">
+        <div class="row">
+            <div class="waitList">
+                <div class="waitList__form">
+                    <form action="mailto:seraphitss@gmail.com?subject=School_Wait_List" class="form" method="post" enctype="text/plain">
+                        <div class="u-mb-md">
+                            <h2 class="heading-secondary">
+                                Waiting list
+                            </h2>
+                        </div>
+                        <!-- school -->
+                        <div class="form__group">
+                            <select name="school" id="school" class="form__input">
+                                <option value="none">Select a School</option>
+                                <option value="roctit">Rockit School</option>
+                                <option value="flamingo">Flamingo School</option>
+                                <option value="water">Water School</option>
+                            </select>
+                            <label for="school" class="form__label">
+                                <!-- Select a School -->
+                                <input type="button" name="button" onclick="info_TCMS()" class="info" value="School Infomation"/>
+                            </label>
+                        </div>
+                        <!-- Name -->
+                        <div class="form__group">
+                            <input id="name" type="text" class="form__input" placeholder="Full Name" name="Name" required>
+                            <label for="name" class="form__label">Full Name</label>
+                        </div>
+                        <!-- email -->
+                        <div class="form__group">
+                            <input id="email" type="email" class="form__input" placeholder="Email Address" required>
+                            <label for="email" class="form__label">Email Address</label>
+                        </div>
+                        <!-- age  -->
+                        <div class="form__group">
+                            <input id="age" type="number" class="form__input" placeholder="Age" name="Age" min="4" max="20" required>
+                            <label for="age" class="form__label">Age</label>
+                        </div>
+                         <!-- grade  -->
+                         <div class="form__group">
+                            <input id="grade" type="number" class="form__input" placeholder="Grade" name="grade" min="0" max="12" required>
+                            <label for="grade" class="form__label">Grade</label>
+                        </div>
+                        <!-- gender -->
+                        <div class="form__group u-mb-lg">
+                            <div class="form__radio-group">
+                                <input name="gender" id="female" type="radio" class="form__radio-input" value="female">
+                                <label for="female" class="form__radio-label">
+                                    <span class="form__radio-button"></span>
+                                    Female</label>
+                            </div>
+                            <div class="form__radio-group" >
+                                <input name="gender" id="male" type="radio" class="form__radio-input" value="male">
+                                <label for="male" class="form__radio-label">
+                                    <span class="form__radio-button"></span>
+                                    Male</label>
+                            </div>
+                        </div>
+                        <!-- button -->
+                        <div class="form__group">
+                            <button class="btn__hero1 btn__color__scrambled--1">Next</button>
+                            <div class="u-mb-lg"></div>
+                            <input type="submit" name="submit" value="Send" class="btn__hero1 btn__color__scrambled--1"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
