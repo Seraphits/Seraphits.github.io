@@ -1,0 +1,30 @@
+.wrapper {
+    max-width: 80rem;
+    background-color: aqua;
+    margin: auto;
+    @media screen and (min-width: 80rem) {
+         margin-top: 2rem;
+         
+    }
+   
+} 
+.section__card {
+    padding:  15rem ;
+    background-image: linear-gradient(to right bottom, $color__scrambled--2, rgb(229, 143, 143))
+}
+.waitList {
+    background-image:   linear-gradient(105deg, 
+                                    rgba($color__white, .9) 0%, 
+                                    rgba($color__white, .7) 50%, 
+                                    transparent 65%), 
+                        url(../../img/roof-truss-gef42e7882_640.jpg);
+    background-size: 100%;
+    border-radius: 10px;
+    box-shadow: 0 1.5rem 4rem rgba($color: $color__black, $alpha: .25);
+
+    
+    &__form {
+        width: 50%;
+        padding: 6rem;
+    }
+}
