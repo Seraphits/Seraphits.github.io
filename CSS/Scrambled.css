@@ -17,6 +17,13 @@ body {
   box-sizing: border-box;
   background-color: black; }
 
+body {
+  color: #444; }
+
+.heading-secondary {
+  font-size: 4rem;
+  color: green; }
+
 .u-mb-sm {
   margin-bottom: 2rem !important; }
 
@@ -94,13 +101,13 @@ body {
 
 .btn--white {
   background-color: #fff;
-  color: #777; }
+  color: #444; }
   .btn--white::after {
     background-color: #fff; }
 
 .btn--transparent {
   background-color: transparent;
-  color: #777;
+  color: #444;
   border-bottom: 3px solid green; }
   .btn--transparent::after {
     background-color: #fff; }
@@ -310,7 +317,7 @@ body {
   background-image: linear-gradient(to right bottom, Orange, #e58f8f); }
 
 .waitList {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.7) 50%, transparent 65%), url(../../img/roof-truss-gef42e7882_640.jpg);
+  background-image: linear-gradient(105deg, rgba(136, 170, 136, 0.8) 0%, rgba(255, 255, 255, 0.6) 55%, transparent 70%), url(../../img/teacher-g5f2e3aad0_1920.jpg);
   background-size: 100%;
   border-radius: 10px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25); }
