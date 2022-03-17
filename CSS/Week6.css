@@ -1,0 +1,9 @@
+.modal {
+  padding: 1rem;
+  max-width: 50ch; }
+  .modal > * {
+    margin: 0 0 0.5rem 0; }
+
+.modal::backdrop {
+  background: purple;
+  opacity: 0.4; }
