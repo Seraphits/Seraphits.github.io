@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Scrambled.css">
+</head>
+<body>
+    <section class="section__card">
+        <div class="row">
+            <div class="waitList">
+                <div class="waitList__form">
+                    <form  class="form" id="my_form">
+                        <div class="u-mb-md">
+                            <h2 class="heading-secondary">
+                                Waiting list
+                            </h2>
+                        </div>
+                        <!-- Class -->
+                        <div class="form__group">
+                            <select name="Class" id="class" class="form__input">
+                                <option value="none">Select a Class</option>
+                                <option value="color">Colors of Learning</option>
+                                <option value="tranSpiral">Transitioning the Spiral</option>
+                                <option value="generations">Future Generations in Education</option>
+                                <option value="framework">Future Framework</option>
+                                <option value="glasses">Five Futures Glasses</option>
+                            </select>
+                            <label for="class" class="form__label">
+                                <!-- Select a Class -->
+                                <!-- <input type="button" name="button" onclick="info_TCMS()" class="info" value="School Infomation"/> -->
+                            <!-- </label> -->
+                        </div>
+                        <!-- Name -->
+                        <div class="form__group">
+                            <input id="name" type="text" class="form__input" placeholder="Full Name" name="Name" required>
+                            <label for="name" class="form__label">Full Name</label>
+                        </div>
+                        <!-- email -->
+                        <div class="form__group">
+                            <input id="email" type="email" class="form__input" placeholder="Email Address" required>
+                            <label for="email" class="form__label">Email Address</label>
+                        </div>
+                        <!-- age  -->
+                        <div class="form__group">
+                            <input id="age" type="number" class="form__input" placeholder="Age" >
+                            <label for="age" class="form__label">Age</label>
+                        </div>
+                         <!-- Organization  -->
+                         <div class="form__group">
+                            <input id="organization" type="text" class="form__input" placeholder="Organization" name="organization" >
+                            <label for="organization" class="form__label">Organization</label>
+                        </div>
+                        <!-- gender -->
+                        <div class="form__group u-mb-lg">
+                            <div class="form__radio-group">
+                                <input name="gender" id="female" type="radio" class="form__radio-input" value="female">
+                                <label for="female" class="form__radio-label">
+                                    <span class="form__radio-button"></span>
+                                    Female</label>
+                            </div>
+                            <div class="form__radio-group" >
+                                <input name="gender" id="male" type="radio" class="form__radio-input" value="male">
+                                <label for="male" class="form__radio-label">
+                                    <span class="form__radio-button"></span>
+                                    Male</label>
+                            </div>
+                        </div>
+                        <!-- button -->
+                        <div class="form__group">
+                            <button class="btn__hero1 btn__color__scrambled--1" onclick="process_form()" >Next</button>
+                            <div class="u-mb-lg"></div>
+                            <input type="submit" name="submit" value="Send" class="btn__hero1 btn__color__scrambled--1" onclick="process_form()" />
+                        </div>
+                    </form>
+                    <div id="output"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../JavaScript/week6a.js" type="text/javascript"></script>
+</body>
+</html>

@@ -79,7 +79,7 @@ const formMessage = document.querySelector('#formMeeage')
 const containerMessage = document.querySelector('#messages')
 formMessage.addEventListener('submit', function(e) {
     //    Prevents default actions taken to redirect page
-   e.preventDefault();
+      
 
     const nameInput = this.elements.name;
     const messageInput = this.elements.message;
