@@ -317,7 +317,7 @@ body {
   background-image: linear-gradient(to right bottom, Orange, #e58f8f); }
 
 .waitList {
-  background-image: linear-gradient(105deg, rgba(136, 170, 136, 0.8) 0%, rgba(255, 255, 255, 0.6) 55%, transparent 70%), url(../../img/teacher-g5f2e3aad0_1920.jpg);
+  background-image: linear-gradient(105deg, rgba(136, 170, 136, 0.8) 0%, rgba(255, 255, 255, 0.6) 55%, transparent 70%), url(../img/teacher-g5f2e3aad0_1920.jpg);
   background-size: 100%;
   border-radius: 10px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25); }
