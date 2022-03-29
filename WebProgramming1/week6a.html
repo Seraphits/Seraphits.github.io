@@ -4,10 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Week6</title>
+    <link rel="stylesheet" href="../CSS/Scrambled1.css">
     <script src="../JavaScript/week6a.js" type="text/javascript"></script>
 </head>
 <body>
-    <button onclick="process_form()">run</button>
+    <section class="section__card">
+        <div class="row">
+            <div class="waitList">
+                <div class="waitList__form">
+                    <form  class="form" id="my_form">
+                        <div class="u-mb-md">
+                            <h2 class="heading-secondary">
+                                Waiting list
+                            </h2>
+                        </div>
+                        <!-- recommendation output area -->
+                        
+                        <div id="output"></div>
+                        <!-- Name -->
+                        <div class="form__group">
+                            <input id="name" type="text" class="form__input" placeholder="Full Name" name="Name" required>
+                            <label for="name" class="form__label">Full Name</label>
+                        </div>
+                        <!-- email -->
+                        <div class="form__group">
+                            <input id="email" type="email" class="form__input" placeholder="Email Address" required>
+                            <label for="email" class="form__label">Email Address</label>
+                        </div>
+                        <!-- age  -->
+                        <div class="form__group">
+                            <input id="age" type="number" class="form__input" placeholder="Age" >
+                            <label for="age" class="form__label">Age</label>
+                        </div>
+                         <!-- Organization  -->
+                         <div class="form__group">
+                            <input id="organization" type="text" class="form__input" placeholder="Organization" name="organization" >
+                            <label for="organization" class="form__label">Organization</label>
+                        </div>
+                
+                        <!-- Class list -->
+                        <h4>Please check the classes you were interested in: </h4>
+                        <br>
+                        <div class="form__group">
+                            <div class="form__checkbox-group">
+                                <input type="checkbox" class="form-checkbox-input" id="color">
+                                <label class="form-checkbox-label" for="color">Colors of Learning</label>
+                            </div>
+                        </div>
+                        <div class="form__group">
+                            <div class="form__checkbox-group">
+                                <input type="checkbox" class="form-checkbox-input" id="tranSpiral">
+                                <label class="form-checkbox-label" for="tranSpiral">Transitioning the Spiral</label>
+                            </div>
+                        </div>
+
+                        <div class="form__group">
+                            <div class="form__checkbox-group">
+                                <input type="checkbox" class="form-checkbox-input" id="generations">
+                                <label class="form-checkbox-label" for="generations">Future Generations in Education</label>
+                            </div>
+                        </div>
+
+                        <div class="form__group">
+                            <div class="form__checkbox-group">
+                                <input type="checkbox" class="form-checkbox-input" id="framework">
+                                <label class="form-checkbox-label" for="framework">Future Framework</label>
+                            </div>
+                        </div>
+
+                        <div class="form__group">
+                            <div class="form__checkbox-group">
+                                <input type="checkbox" class="form-checkbox-input" id="glasses">
+                                <label class="form-checkbox-label" for="glasses">Five Futures Glasses</label>
+                            </div>
+                        </div>
+                      
+
+                        <button type="button" class="btn__hero1 btn__color__scrambled--1" onclick="process_form()">Submit</button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>

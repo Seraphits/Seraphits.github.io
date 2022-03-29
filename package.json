@@ -6,7 +6,7 @@
   "scripts": {
     "compile:sass": "node-sass SCSS/Main.scss CSS/style.css -w",
     "compile3:sass": "node-sass SCSS/Week6/week6.scss CSS/Week6.css -w",
-    "compile2:sass": "node-sass SCSS-Scrambled/Main.scss CSS/Scrambled.css -w",
+    "compile2:sass": "node-sass SCSS-Scrambled/Main.scss CSS/Scrambled1.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver compile:sass"
   },
