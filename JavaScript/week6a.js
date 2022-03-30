@@ -17,7 +17,7 @@
         if (this.age < 13) {
             return "you must be 13 to create an account";
         } else if (this.age < 18 ) {
-            return "you need parent permission to create pink count";
+            return "you need parent permission to create a count";
         } else {
             return "your account has been created";
         }
