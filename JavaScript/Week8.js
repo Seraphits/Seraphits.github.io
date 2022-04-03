@@ -52,7 +52,7 @@ function output_array() {
     }
     // alert("My array had these elements in it: " + word_string);
     var out = document.getElementById("output");
-    out.innerHTML = "My array had these elements in it: " + word_string;
+    out.innerHTML = "Spelling List: " + word_string;
 };
 
 // createList.addEventListener('click', output_array());
