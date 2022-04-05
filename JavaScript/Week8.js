@@ -1,5 +1,6 @@
+// setup array for spelling list
 var my_array = new Array();
-
+// Brings up prompts to type in spelling words to make list when the button is pressed
 function create_list() {
     if(my_array.length==0) {
       var my_form_value = document.getElementById("number_of_elements");
@@ -20,18 +21,16 @@ function create_list() {
         alert("You've already created your collection of albums.  Please use another function.");
     }
 };
+// Function to allow you to press a button to add one word at a time to the spelling list in case you forgot when you initially set up a list
 function addWord() {
-    var my_form_value
-    console.log(my_form_value);
-    var x = document.getElementById("specific_element").value;
-    console.log(x);
-    x=parseInt(x);
-    console.log(x);
-    my_array.push(prompt("Push another city to the end of the array"));
-    alert("After push the cities are " + my_array );
+    var array_length, newAlbumTitle;
+    array_length = my_array.length;
+    newAlbumTitle = prompt("Input another album number to the array");
+    my_array[array_length]= newAlbumTitle;
+    alert("You added " + newAlbumTitle + " to the array.");
     output_array()
 };
-
+// Function that adds the output to the page.
 function output_array() {
     word_string = new String();
     console.log("start word:" + word_string);

@@ -1,0 +1,19 @@
+body {
+    background-color: aquamarine;
+}
+
+.container {
+    background-color: aliceblue;
+    /* max-width: 1140px; */
+    margin: 10%;
+    padding: 4rem;
+}
+
+.button {
+    margin-top: 1rem;
+}
+
+#output {
+    margin-top: 2rem;
+    color: blue;
+}

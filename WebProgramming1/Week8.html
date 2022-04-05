@@ -5,33 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="../CSS/week8.css">
 </head>
 <body>
-    <!-- <h1>Make a Spelling List</h1>
-    <form action="">
-        <input type="text" id="word">
-        <label for="word">word</label>
-        <button id="addWord()">Submit</button>
-    </form>
-    Word List:
-    <div id="allWords">
-
-    </div> -->
-
-    <form id="theform">
-        How many albums would you like in your collection?
-        <input type="text" name="number" value="1" id="number_of_elements"/><br />
-    </form> 
-    <button type="button" id="createList" onclick="create_list();">Create a Spelling List</button><br />
-    <button type="button" id="newWord" onclick="addWord();">Add one Word to the Spelling List</button> <br />
-    <!-- <button type="button" onclick="output_array();">Output the collection of albums</button><br /> -->
-
-
-        <ul id="messages">
-
-        </ul>
-        <div id="output"></div>
-
+   <div class="container">
+        <!-- This form that you put in a number that I'm spelling words that you want on your spelling list -->
+        <form id="theform">
+            How many words are on your spelling list?
+            <input type="text" name="number" value="1" id="number_of_elements"/><br />
+        </form> 
+        <!-- This button creates does Ellen list and will prompt you for as many words as you indicated are on the list -->
+        <button class="button" type="button" id="createList" onclick="create_list();">Create a Spelling List</button><br />
+        <!-- It's putting allows you to add words to the list in case you forgot one and then initial set up -->
+        <button class="button" type="button" id="newWord" onclick="addWord();">Add one Word to the Spelling List</button> <br />
+        <!-- <button type="button" onclick="output_array();">Output the collection of albums</button><br /> -->
+            <!-- Here is where the output goes of the list -->
+            <div id="output"></div>
+    </div>
 <script src="../JavaScript/Week8.js" type="text/javascript"></script>        
 </body>
 </html>
