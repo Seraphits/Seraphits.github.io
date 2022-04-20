@@ -1,4 +1,25 @@
 // For laying out element in a fully-fledged 2-dimensional grid. Perfect for page layouts and complex components. 
-
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    margin: auto;
+    padding: 0;
+    @include respond(break-s) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      margin: auto;
+      padding: 0;
+    }
+    @include respond(break-m) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 20px;
+      margin: auto;
+      padding: 0;
+    }
+  }
+  
 
 

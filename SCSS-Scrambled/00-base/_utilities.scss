@@ -7,3 +7,13 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
 }  
+
+.center {
+    text-align: center;
+    padding: 4rem;
+}
+.center_item {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}

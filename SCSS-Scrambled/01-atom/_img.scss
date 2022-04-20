@@ -9,4 +9,13 @@
         object-fit: contain;
         display: block;
     }
+    &__spiral {
+        width: 40%;     
+        padding: 2rem;
+        margin: auto;
+        @media  screen and (max-width: $break-l) {
+            display: none;  
+        }
+    }
 } 
+

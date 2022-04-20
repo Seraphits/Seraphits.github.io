@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Scrambled2.css">
+    <link rel="stylesheet" href="https:use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+<body>
+     <!-- Navbar -->
+     <nav class="navbar">
+        <input type="checkbox" id="check" class="checkbox" hidden>
+        <div class="hamburger">
+            <label for="check" class="hamburger-menu">
+                <div class="hamburger-menu__line hamburger-menu__line--1"></div>
+                <div class="hamburger-menu__line hamburger-menu__line--2"></div>
+                <div class="hamburger-menu__line hamburger-menu__line--3"></div>
+            </label>
+        </div>
+        <div class="navbar__nav">
+            <div class="navbar__nav--left">
+                <img src="../img/female-singing.png" alt="" class="img__nav">
+            </div>
+            <div class="navbar__nav--right">
+                <ul class="nav__list">
+                    <li class="nav__list--item">
+                        <a href="#" class="nav__list--link">Home</a>
+                    </li>
+                    <li class="nav__list--item">
+                        <a href="#" class="nav__list--link">Classes</a>
+                    </li>
+                    <li class="nav__list--item">
+                        <a href="#" class="nav__list--link">Games</a>
+                    </li>
+                    <li class="nav__list--item">
+                        <a href="#" class="nav__list--link">About</a>
+                    </li>
+                    <li class="nav__list--item">
+                        <a href="#" class="nav__list--link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   <!-- End of Navnar -->
+    <header class="header">
+        <h1 class="center">Introduction to Spiral Dynamics</h1>
+    </header>
+    <div class="col2">
+        <div class="video">
+            video
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/633_RWYzam4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="content">
+            <h3 class="h3video">Spiral Dynamics Value Systems</h3>
+            <p class="pvideo">Watch the video explaining the differnt vulue systems in Spiral Dynamics.</p>
+            <div class="container1">
+                <img src="../img/SD-Color-Deck-1600x1067-2-740x560.png" class="img__spiral" alt="spiral cards">
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="dragNdrop">
+       <h3  class="center dirctions">Drag the color to match the vulue system in Spiral Dynamics it represents.</h3>
+<!-- drag and drop -->
+        <section class="draggable-elements">
+            <div class="center_item">
+                <i class="fas fa-dove draggable" draggable="true" style="color: red;" id="Red"></i>
+            </div>
+            <div class="center_item">
+                <i class="fas fa-hippo draggable" draggable="true" style="color: yellow;" id="Yellow"></i>
+            </div>
+            <div class="center_item">
+                <i class="fas fa-dog draggable" draggable="true" style="color: purple;" id="Purple"></i>
+            </div>
+            <div class="center_item">
+                <i class="fas fa-spider draggable" draggable="true" style="color: coral;" id="Coral"></i>
+            </div>
+            <div class="center_item">
+                <i class="fas fa-fish draggable" draggable="true" style="color: blue;" id="Blue"></i>
+            </div>
+            <div class="center_item">
+                <i class="fas fa-cat draggable" draggable="true" style="color: #CFB997;" id="Beige"></i>
+            </div>
+            <div class="center_item">
+                <i class="fas fa-spider draggable" draggable="true" style="color: turquoise;" id="Turquoise"></i>
+            </div> 
+            <div class="center_item">
+                <i class="fas fa-horse draggable" draggable="true" style="color: green;" id="Green"></i>
+            </div> 
+            <div class="center_item">
+                <i class="fas fa-frog draggable" draggable="true" style="color: orange;" id="Orange"></i>
+            </div>
+        </section>
+        <section class="droppable-elements grid-4">
+            <div class="droppable" data-draggable-id="Beige"><span>Survival Processes</span></div>
+            <div class="droppable" data-draggable-id="Purple"><span>Tribe-Like Groups</span></div>
+            <div class="droppable" data-draggable-id="Red"><span>Power Seeking</span></div>
+            <div class="droppable" data-draggable-id="Blue"><span>Purposeful</span></div>
+            <div class="droppable" data-draggable-id="Orange"><span>Autonomy-Seeking</span></div>
+            <div class="droppable" data-draggable-id="Green"><span>Experiential and Consensual</span></div>
+            <div class="droppable" data-draggable-id="Yellow"><span>Integrative</span></div>
+            <div class="droppable" data-draggable-id="Turquoise"><span>Holistic</span></div>
+            <div class="droppable" data-draggable-id="Coral"><span>Master of chaos</span></div>
+        </section>
+    </div>
+   
+
+     <script src="../JavaScript/fanalproject.js" type="text/javascript"></script>
+</body>
+</html>

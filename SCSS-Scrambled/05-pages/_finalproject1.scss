@@ -1,0 +1,48 @@
+.header {
+    // background-color: blue;
+    padding: auto;
+    margin: auto;
+    color: beige;
+    font-size: 2rem;
+};
+.col2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: whitesmoke;
+    @media  screen and (max-width: $break-l) {
+        // background-color: aquamarine; 
+        display: flex;
+        flex-direction: column-reverse;
+    }
+};
+.dirctions {
+    font-size: 2rem;
+}
+.video {
+    // background-color: brown;
+    padding: 5rem;
+    margin: auto;
+};
+.content {
+    // background-color: aquamarine;
+    padding: 5rem;
+    padding-top: 8rem;
+    @media  screen and (max-width: $break-l) {
+        // background-color: #d87093; 
+        text-align: center;
+    }
+}
+.container1 {
+    text-align: center;
+    // background-color: aquamarine;
+}
+.h3video {
+    font-size: 3rem;
+    padding-bottom: 2rem
+}
+.pvideo {
+    font-size: 2rem;
+}
+.dragNdrop {
+    background-color: whitesmoke;
+};
