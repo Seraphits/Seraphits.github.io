@@ -89,8 +89,10 @@ const questions = [
     {
         question: "Who started the research that led to Spiral Dynamics?",
         answers: [
+            {text:'Ken Wilber', correct:false},
             {text: 'Clare W Graves', correct:true},
-            {text:'22', correct:false}    
+            {text:'Don Beck', correct:false},
+            {text:'Christopher Cowan', correct:false}        
         ]
     },
     {
@@ -172,16 +174,29 @@ const questions = [
         ]
     },
     {
-        question: "Which stage is about understanding others feelings?",
+        question: "This stage focused on understanding systems and how all the stage work together?",
         answers: [
             {text: 'Beige', correct:false},
             {text:'Purple', correct:false},
             {text:'Red', correct:false},
             {text:'Blue', correct:false},
             {text:'Orange', correct:false},
-            {text:'Green', correct:true},
-            {text:'Yellow', correct:false},
+            {text:'Green', correct:false},
+            {text:'Yellow', correct:true},
             {text:'Turquoise', correct:false}
+        ]
+    },
+    {
+        question: "This stage has learned that nature have the best answers?",
+        answers: [
+            {text: 'Beige', correct:false},
+            {text:'Purple', correct:false},
+            {text:'Red', correct:false},
+            {text:'Blue', correct:false},
+            {text:'Orange', correct:false},
+            {text:'Green', correct:false},
+            {text:'Yellow', correct:false},
+            {text:'Turquoise', correct:true}
         ]
     }
 ]
