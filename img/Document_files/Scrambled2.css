@@ -444,53 +444,6 @@ body {
 .dragNdrop {
   padding-bottom: 3rem; }
 
-:root {
-  --hue-neutral: 200;
-  --hue-wrong: 0;
-  --hue-correct: 145; }
-
-.container__quiz {
-  max-width: 80%;
-  padding: 5rem; }
-
-.grid__btn {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 10px;
-  margin: 20px 0; }
-
-.btn {
-  --hue: var(--hue-neutral);
-  background-color: hsl(var(--hue), 100%, 50%);
-  border-radius: 5px;
-  padding: 5px 10px;
-  color: white;
-  outline: none; }
-
-.btn:hover {
-  border-color: black; }
-
-.btn.correct {
-  --hue: var(--hue-correct);
-  color: black; }
-
-.btn.wrong {
-  --hue: var(--hue-wrong); }
-
-.btn__start,
-.btn__next {
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 10px 20px; }
-
-.controls {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.hide {
-  display: none; }
-
 .header {
   padding: auto;
   margin: auto;
@@ -518,13 +471,7 @@ body {
   padding-top: 8rem; }
   @media screen and (max-width: 1100px) {
     .content {
-      text-align: center;
-      display: none; } }
-
-.content__top {
-  background-color: whitesmoke;
-  text-align: center;
-  padding-top: 2rem; }
+      text-align: center; } }
 
 .container1 {
   text-align: center; }

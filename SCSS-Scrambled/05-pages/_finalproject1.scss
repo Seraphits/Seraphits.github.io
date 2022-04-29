@@ -30,7 +30,13 @@
     @media  screen and (max-width: $break-l) {
         // background-color: #d87093; 
         text-align: center;
+        display: none;
     }
+}
+.content__top {
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 2rem;
 }
 .container1 {
     text-align: center;
