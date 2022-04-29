@@ -198,5 +198,26 @@ const questions = [
             {text:'Yellow', correct:false},
             {text:'Turquoise', correct:true}
         ]
+    },
+    {
+        question: "People are just at one stage.",
+        answers: [
+            {text:'True', correct:false},
+            {text:'False', correct:true}
+        ]
+    },
+    {
+        question: "People tend to progress to the stage of the socially they are born in.",
+        answers: [
+            {text:'True', correct:true},
+            {text:'False', correct:false}
+        ]
+    },
+    {
+        question: "A person can seek to rase their stage if they choose to.",
+        answers: [
+            {text:'True', correct:true},
+            {text:'False', correct:false}
+        ]
     }
 ]
