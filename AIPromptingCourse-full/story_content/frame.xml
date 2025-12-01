@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="AI Prompting Course -full 1" />
+              <option name="title_text" value="AI Prompting Course -full 2" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1594,6 +1594,7 @@
         <slidelink slideid="_player.5hFzKSmfkt9" displaytext="What is Generative AI?" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5hFzKSmfkt9.6kVbxFYjyxk" displaytext="What&amp;apos;s the Deal with AI?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hFzKSmfkt9.61RCO3chVbC" displaytext="What&amp;apos;s the Deal with AI?" expand="false" type="slide" />
             <slidelink slideid="_player.5hFzKSmfkt9.6HtP8J0sWaf" displaytext="AI in The Workplace" expand="false" type="slide" />
             <slidelink slideid="_player.5hFzKSmfkt9.5gjrTlbHRue" displaytext="How Genersative AI Works" expand="false" type="slide" />
             <slidelink slideid="_player.5hFzKSmfkt9.5wja4OkWbfY" displaytext="Generative AI Video " expand="false" type="slide" />
@@ -1619,11 +1620,13 @@
           <links>
             <slidelink slideid="_player.6nykOEgNWGe.5qKt8jLb7rI" displaytext="The Ethics of Talking AI" expand="false" type="slide" />
             <slidelink slideid="_player.6nykOEgNWGe.6XTvF0L85aM" displaytext="Think Before You Prompt" expand="false" type="slide" />
+            <slidelink slideid="_player.6nykOEgNWGe.6GD2Xw94LgH" displaytext="Pick Many" expand="false" type="slide" />
             <slidelink slideid="_player.6nykOEgNWGe.6RBJ9kZycQG" displaytext="Ethics Check" expand="false" type="slide" />
             <slidelink slideid="_player.6nykOEgNWGe.5hh25jL4y6o" displaytext="Knowledge 1" expand="false" type="slide" />
             <slidelink slideid="_player.6nykOEgNWGe.6l2cO1ORw42" displaytext="Knowledge 2" expand="false" type="slide" />
             <slidelink slideid="_player.6nykOEgNWGe.5rWhipPHxfy" displaytext="Knowledge 3" expand="false" type="slide" />
             <slidelink slideid="_player.6nykOEgNWGe.6UDwFzUQ7PU" displaytext="Completion" expand="false" type="slide" />
+            <slidelink slideid="_player.6nykOEgNWGe.6E06nXqs1Nf" displaytext="Multiple Response" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
