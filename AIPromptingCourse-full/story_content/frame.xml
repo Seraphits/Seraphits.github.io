@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="AI Prompting Course -full 2" />
+              <option name="title_text" value="AI Prompting Course -full 2 12-2-25" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1620,13 +1620,11 @@
           <links>
             <slidelink slideid="_player.6nykOEgNWGe.5qKt8jLb7rI" displaytext="The Ethics of Talking AI" expand="false" type="slide" />
             <slidelink slideid="_player.6nykOEgNWGe.6XTvF0L85aM" displaytext="Think Before You Prompt" expand="false" type="slide" />
-            <slidelink slideid="_player.6nykOEgNWGe.6GD2Xw94LgH" displaytext="Pick Many" expand="false" type="slide" />
-            <slidelink slideid="_player.6nykOEgNWGe.6RBJ9kZycQG" displaytext="Ethics Check" expand="false" type="slide" />
+            <slidelink slideid="_player.6nykOEgNWGe.6GD2Xw94LgH" displaytext="Identify Responsible AI Use" expand="false" type="slide" />
             <slidelink slideid="_player.6nykOEgNWGe.5hh25jL4y6o" displaytext="Knowledge 1" expand="false" type="slide" />
             <slidelink slideid="_player.6nykOEgNWGe.6l2cO1ORw42" displaytext="Knowledge 2" expand="false" type="slide" />
             <slidelink slideid="_player.6nykOEgNWGe.5rWhipPHxfy" displaytext="Knowledge 3" expand="false" type="slide" />
             <slidelink slideid="_player.6nykOEgNWGe.6UDwFzUQ7PU" displaytext="Completion" expand="false" type="slide" />
-            <slidelink slideid="_player.6nykOEgNWGe.6E06nXqs1Nf" displaytext="Multiple Response" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
